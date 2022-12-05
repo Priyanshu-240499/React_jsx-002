@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from "./images/airbnb.jpg"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const Data_2=()=>{
+    return(
+    <div className="content-2">
+      <h1>The Evolution of <br/>Airbnb's Frontend </h1>
+      <h4>@spikebrehm</h4>
+      <div>
+        <img src={logo}/>
+      </div>
     </div>
+    )
+  }
+  return (
+    <>
+    <Data_2/>
+    </>
+   
   );
 }
 
